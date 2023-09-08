@@ -28,6 +28,11 @@ subtitle:
   sub:
     - 燃烧心中的火焰，将梦想凌驾于高山。
 index_img: /img/home.jpg
+archive_img: /img/home.jpg
+tag_img: /img/home.jpg
+tag_per_img: /img/home.jpg
+category_img: /img/home.jpg
+category_per_img: /img/home.jpg
 preloader: true
 index_top_img_height: 700px
 aside:
@@ -75,22 +80,30 @@ footer:
     since: 2023
   custom_text: 一个想做开发的测试 ｜ 一个想做测试的开发
   copyright: false # Copyright of theme and framework
-
-highlight_theme: mac
-highlight_copy: true
-highlight_lang: true
-highlight_shrink: true
-highlight_height_limit: false
-code_word_wrap: false
 reward:
   enable: true
+  QR_code:
+    - img: /img/wechat-pay.jpg
+      text: 微信
+    - img: /img/alipay.jpg
+      text: 支付宝
+highlight_theme: mac light
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: false
+code_word_wrap: false
 sharejs:
-  enanle: true
+  enable: true
   sites: wechat,qq
 post_copyright:
   enable: true
   decode: utf-8
 avatar:
-  img: favicon.png
-  effect: true
-favicon: favicon.png
+  img: /img/favicon.ico
+  effect: false
+favicon: /img/favicon.ico
+social:
+  fab fa-weixin: /img/wechat.jpg || WeChat
+  fab fa-qq: /img/qq.jpg || QQ
+  fas fa-envelope: mailto:2874071013@qq.com || Email
