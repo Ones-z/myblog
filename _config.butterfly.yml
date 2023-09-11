@@ -1,21 +1,24 @@
 menu:
   首页: / || fas fa-home
-  搜索: / || fas fa-search
   导航||fas fa-list:
     归档: /archives/ || fas fa-archive
-    标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
   统计: / || fas fa-chart-pie
   待办事项: / || fas fa-tasks
   更新日志: / || fas fa-history
   关于: /about/ || fas fa-heart
   小游戏: /game/ || fas fa-gamepad
-
+css_prefix: true  #有些 CSS 并不是所有浏览器都支持，需要增加对应的前缀才会生效
+instantpage: false # 当鼠标悬停到链接上超过 65 毫秒时，Instantpage 会对该链接进行预加载，可以提升访问速度
+pangu: # 在网页中所有的中文字和半形的英文、数字、符号之间插入空白
+  enable: true
+  field: site # site/post
 subtitle:
   enable: true
-  # Typewriter Effect (打字效果)
-  effect: false
-  # loop (循环打字)
+  effect: false # 打字效果
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 200 # type speed in milliseconds
+  backSpeed: 100 # backspacing speed in milliseconds
   loop: true
   # source 调用第三方服務
   # source: false 关闭调用
@@ -35,6 +38,18 @@ category_img: /img/home.jpg
 category_per_img: /img/home.jpg
 preloader: true
 index_top_img_height: 700px
+wordcount: #文章字数统计
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+toc: # 文章目录显示位置
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false # for post
+  scroll_percent: true
 aside:
   enable: true
   hide: false
@@ -43,7 +58,7 @@ aside:
   position: left   # left or right，决定侧边栏在右边还是在左边
   card_author:
     enable: true
-    description:
+    description: 一个不务正业的测试开发
     button:
       enable: true
       icon: fab fa-github
@@ -107,3 +122,54 @@ social:
   fab fa-weixin: /img/wechat.jpg || WeChat
   fab fa-qq: /img/qq.jpg || QQ
   fas fa-envelope: mailto:2874071013@qq.com || Email
+inject: # 插入代码到头部 </head> 之前 和 底部 </body> 之前
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+  bottom:
+mask: # 为 header 或 footer 添加黑色半透遮罩
+  header: true
+  footer: true
+
+nav:
+  logo: # image
+  display_title: true
+  fixed: true  # fixed navigation bar
+
+# 文章底部
+copy: # 复制配置，开启后复制内容后会加入版权信息
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 50
+
+hr_icon: # 水平分隔线图标设置，带个小剪刀图标
+  enable: true
+  icon: # the unicode value of Font Awesome icon, such as '\3423'
+  icon-top:
+
+beautify: # 列表项前是否加图标
+  enable: false
+  field: post # site/post
+  title-prefix-icon:  '\f0c1'
+  title-prefix-icon-color: '#F47466'
+
+  # 显示评论
+newest_comments:
+  enable: true
+  sort_order: # Don't modify the setting unless you know how it works
+  limit: 6
+  storage: 10 # unit: mins, save data to localStorage
+  avatar: true
+
+local_search: # 本地搜索
+  enable: true
+  preload: false
+  top_n_per_article: 1
+  unescape: false
+  CDN:
+
+lazyload: # Lazyload (圖片懶加載)
+  enable: false
+  field: site # site/post
+  placeholder:
+  blur: false
