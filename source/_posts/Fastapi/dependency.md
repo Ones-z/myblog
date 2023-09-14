@@ -2,7 +2,7 @@
 title: 依赖注入，给你的代码润色
 comments: true
 cover: cover.png
-date: 2023-09-11 11:52:02
+date: 2022-04-02 11:52:02
 categories:
 - Fastapi
 keyword: 依赖注入,解耦

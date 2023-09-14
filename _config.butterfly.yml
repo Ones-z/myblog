@@ -5,7 +5,7 @@ menu:
     分类: /categories/ || fas fa-folder-open
   统计: / || fas fa-chart-pie
   待办事项: / || fas fa-tasks
-  更新日志: / || fas fa-history
+  更新日志: /archives/ || fas fa-history
   关于: /about/ || fas fa-heart
   小游戏: /game/ || fas fa-gamepad
 css_prefix: true  #有些 CSS 并不是所有浏览器都支持，需要增加对应的前缀才会生效
@@ -92,7 +92,7 @@ theme_color:
 footer:
   owner:
     enable: true
-    since: 2023
+    since: 2021
   custom_text: 一个想做开发的测试 ｜ 一个想做测试的开发
   copyright: false # Copyright of theme and framework
 reward:

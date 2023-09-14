@@ -2,7 +2,7 @@
 title: 提交代码之前格式化，你会吗
 comments: true
 cover: cover.png
-date: 2023-09-11 16:32:23
+date: 2022-02-19 16:32:23
 categories:
 - Fastapi
 keyword: 静态代码,格式化,flake8,pre-commit,autoflake,isort,black

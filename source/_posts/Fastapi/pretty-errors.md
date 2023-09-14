@@ -2,7 +2,7 @@
 title: pretty_errors,给你的调试高亮
 comments: true
 cover: cover.png
-date: 2023-09-11 12:09:03
+date: 2021-11-11 12:09:03
 categories:
 - Fastapi
 keyword: 代码调试技巧,高亮

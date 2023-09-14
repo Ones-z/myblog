@@ -2,7 +2,7 @@
 title: 你考虑过使用函数运算缓存吗
 comments: true
 cover: cover.png
-date: 2023-09-11 18:31:57
+date: 2021-11-20 18:31:57
 categories:
 - Python
 keyword: 运算缓存,性能
